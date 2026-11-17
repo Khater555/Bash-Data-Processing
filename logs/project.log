@@ -1,0 +1,147 @@
+[2026-11-14 18:51:26] [INFO] Starting data processing...
+[2026-11-14 18:51:26] [SUCCESS] File processed successfully.
+[2026-11-14 18:51:26] [WARNING] File contains empty values.
+[2026-11-14 18:51:26] [ERROR] File not found.
+[2026-11-14 18:51:36] [INFO] Starting data processing...
+[2026-11-14 18:51:36] [SUCCESS] File processed successfully.
+[2026-11-14 18:51:36] [WARNING] File contains empty values.
+[2026-11-14 18:51:36] [ERROR] File not found.
+[2026-11-14 18:55:34] [INFO] Starting data processing...
+[2026-11-14 18:55:34] [SUCCESS] File processed successfully.
+[2026-11-14 18:55:34] [WARNING] File contains empty values.
+[2026-11-14 18:55:34] [ERROR] File not found.
+[2026-11-14 18:55:43] [INFO] Starting data processing...
+[2026-11-14 18:55:43] [SUCCESS] File processed successfully.
+[2026-11-14 18:55:43] [WARNING] File contains empty values.
+[2026-11-14 18:55:44] [ERROR] File not found.
+[2026-11-14 19:30:37] [INFO] Starting data processing...
+[2026-11-14 19:30:37] [SUCCESS] File processed successfully.
+[2026-11-14 19:30:37] [WARNING] File contains empty values.
+[2026-11-14 19:30:37] [ERROR] File not found.
+[2026-11-14 19:32:00] [INFO] Starting data processing...
+[2026-11-14 19:32:00] [SUCCESS] File processed successfully.
+[2026-11-14 19:32:00] [WARNING] File contains empty values.
+[2026-11-14 19:41:16] [INFO] Starting data processing...
+[2026-11-14 19:41:16] [SUCCESS] File processed successfully.
+[2026-11-14 19:41:16] [WARNING] File contains empty values.
+[2026-11-14 19:41:16] [ERROR] An unexpected error occurred.
+[2026-11-14 20:12:17] [INFO] Starting data processing...
+[2026-11-14 20:12:17] [SUCCESS] File processed successfully.
+[2026-11-14 20:12:17] [WARNING] File contains empty values.
+[2026-11-14 20:12:17] [INFO] Starting data processing...
+[2026-11-14 20:12:22] [INFO] Input accepted: Khater
+[2026-11-14 20:12:25] [INFO] Starting data processing...
+[2026-11-14 20:12:25] [SUCCESS] File processed successfully.
+[2026-11-14 20:12:25] [WARNING] File contains empty values.
+[2026-11-14 20:12:25] [INFO] Starting data processing...
+[2026-11-14 20:12:27] [INFO] Input accepted: 2
+[2026-11-14 20:12:34] [INFO] Starting data processing...
+[2026-11-14 20:12:34] [SUCCESS] File processed successfully.
+[2026-11-14 20:12:34] [WARNING] File contains empty values.
+[2026-11-14 20:12:34] [INFO] Starting data processing...
+[2026-11-14 20:12:35] [ERROR] Invalid input: Input cannot be empty.
+[2026-11-14 20:12:35] [WARNING] Please enter a file name.
+[2026-11-14 20:41:14] [INFO] Starting data processing...
+[2026-11-14 20:41:26] [ERROR] User interruption using Ctrl+C.
+[2026-11-14 20:42:20] [ERROR] An unexpected error occurred.
+[2026-11-14 20:42:48] [INFO] Starting data processing...
+[2026-11-14 20:42:52] [ERROR] User interruption using Ctrl+C.
+[2026-11-14 20:42:55] [INFO] Starting data processing...
+[2026-11-14 20:43:06] [SUCCESS] File found: data/data.csv
+[2026-11-14 20:43:06] [INFO] File is ready for processing.
+[2026-11-14 20:43:12] [INFO] Starting data processing...
+[2026-11-14 20:43:16] [ERROR] Invalid input: Input cannot be empty.
+[2026-11-14 20:43:16] [WARNING] Please enter a file name.
+[2026-11-14 21:02:15] [SUCCESS] Command available: awk
+[2026-11-14 21:02:15] [SUCCESS] Command available: sed
+[2026-11-14 21:02:15] [SUCCESS] Command available: grep
+[2026-11-14 21:02:15] [INFO] All required commands are available.
+[2026-11-14 21:16:20] [SUCCESS] Command available: awk
+[2026-11-14 21:16:20] [SUCCESS] Command available: sed
+[2026-11-14 21:16:20] [SUCCESS] Command available: grep
+[2026-11-14 21:16:20] [INFO] All required commands are available.
+[2026-11-14 21:18:09] [SUCCESS] File passed all validation checks: data/test.txt
+[2026-11-14 21:30:58] [SUCCESS] File passed all validation checks: data/test.txt
+[2026-11-14 21:32:32] [SUCCESS] File passed all validation checks: data/test.txt
+[2026-11-16 20:05:23] [ERROR] File is empty: data/data.csv
+[2026-11-16 20:05:23] [ERROR] An unexpected error occurred.
+[2026-11-16 20:07:50] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-16 20:07:50] [ERROR] File does not exist: data/not_found.txt
+[2026-11-16 20:07:50] [ERROR] An unexpected error occurred.
+[2026-11-16 20:27:19] [ERROR] File is empty: data/sample.txt
+[2026-11-16 20:27:19] [ERROR] An unexpected error occurred.
+[2026-11-16 20:28:32] [ERROR] File is empty: data/sample.txt
+[2026-11-16 20:28:32] [ERROR] An unexpected error occurred.
+[2026-11-16 20:28:47] [ERROR] File is empty: data/sample.txt
+[2026-11-16 20:28:47] [ERROR] An unexpected error occurred.
+[2026-11-16 20:29:13] [SUCCESS] File passed all validation checks: data/sample.txt
+[2026-11-16 20:29:13] [INFO] counting lines in file: data/sample.txt
+[2026-11-16 20:29:13] [SUCCESS] Line count for file 'data/sample.txt': 7
+[2026-11-16 20:39:34] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-16 20:39:34] [INFO] Extracting columns 1,3 from data/data.csv
+[2026-11-16 20:39:34] [SUCCESS] Columns extracted successfully.
+[2026-11-16 21:00:31] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-16 21:00:31] [INFO] Filtering data in data/data.csv using pattern: Ahmed
+[2026-11-16 21:00:31] [SUCCESS] Matching records found.
+[2026-11-16 21:18:32] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-16 21:18:32] [INFO] Calculating statistics from data/data.csv
+[2026-11-16 21:18:32] [WARNING] No valid numeric data found.
+[2026-11-16 21:18:32] [ERROR] An unexpected error occurred.
+[2026-11-16 21:18:34] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-16 21:18:34] [INFO] Calculating statistics from data/data.csv
+[2026-11-16 21:18:34] [WARNING] No valid numeric data found.
+[2026-11-16 21:18:34] [ERROR] An unexpected error occurred.
+[2026-11-16 21:21:12] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-16 21:21:12] [INFO] Calculating statistics from data/data.csv
+[2026-11-16 21:21:12] [SUCCESS] Statistics calculated successfully.
+[2026-11-16 21:23:19] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-16 21:23:19] [INFO] Calculating statistics from data/data.csv
+[2026-11-16 21:23:19] [SUCCESS] Statistics calculated successfully.
+[2026-11-16 21:43:25] [ERROR] File does not exist: data/file1.txt
+[2026-11-16 21:43:25] [ERROR] Merge operation cancelled.
+[2026-11-16 21:43:25] [ERROR] An unexpected error occurred.
+[2026-11-17 03:47:55] [ERROR] An unexpected error occurred.
+[2026-11-17 03:51:13] [ERROR] File is empty: data/data.txt
+[2026-11-17 03:51:13] [ERROR] An unexpected error occurred.
+[2026-11-17 03:51:48] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-17 03:51:49] [INFO] Removing duplicate lines from data/data.txt
+[2026-11-17 03:51:49] [SUCCESS] Original lines: 5
+[2026-11-17 03:51:49] [SUCCESS] Unique lines: 4
+[2026-11-17 03:51:49] [SUCCESS] Duplicates removed: 1
+[2026-11-17 03:52:11] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-17 03:52:11] [INFO] Removing duplicate lines from data/data.txt
+[2026-11-17 03:52:11] [SUCCESS] Original lines: 5
+[2026-11-17 03:52:11] [SUCCESS] Unique lines: 4
+[2026-11-17 03:52:11] [SUCCESS] Duplicates removed: 1
+[2026-11-17 04:13:57] [ERROR] awk is not installed.
+[2026-11-17 04:13:57] [ERROR] An unexpected error occurred.
+[2026-11-17 04:15:42] [SUCCESS] awk is installed.
+[2026-11-17 04:15:42] [SUCCESS] docker is installed.
+[2026-11-17 04:18:32] [INFO] Checking dependencies...
+[2026-11-17 04:18:32] [SUCCESS] awk found.
+[2026-11-17 04:18:32] [SUCCESS] grep found.
+[2026-11-17 04:18:32] [SUCCESS] wc found.
+[2026-11-17 04:18:32] [SUCCESS] cat found.
+[2026-11-17 04:18:32] [SUCCESS] mkdir found.
+[2026-11-17 04:18:32] [SUCCESS] date found.
+[2026-11-17 04:18:32] [SUCCESS] All required dependencies are available.
+[2026-11-17 04:23:33] [INFO] Initializing directories...
+[2026-11-17 04:23:33] [SUCCESS] Required directories are ready.
+[2026-11-17 04:23:43] [INFO] Initializing directories...
+[2026-11-17 04:23:44] [SUCCESS] Required directories are ready.
+[2026-11-17 04:23:54] [INFO] Initializing directories...
+[2026-11-17 04:23:54] [SUCCESS] Required directories are ready.
+[2026-11-17 04:23:59] [INFO] Initializing directories...
+[2026-11-17 04:23:59] [SUCCESS] Required directories are ready.
+[2026-11-17 04:24:05] [INFO] Initializing directories...
+[2026-11-17 04:24:05] [SUCCESS] Required directories are ready.
+[2026-11-17 04:24:49] [INFO] Initializing directories...
+[2026-11-17 04:24:49] [SUCCESS] Required directories are ready.
+[2026-11-17 04:24:49] [INFO] Checking dependencies...
+[2026-11-17 04:24:49] [SUCCESS] awk found.
+[2026-11-17 04:24:49] [SUCCESS] grep found.
+[2026-11-17 04:24:49] [SUCCESS] wc found.
+[2026-11-17 04:24:49] [SUCCESS] cat found.
+[2026-11-17 04:24:49] [SUCCESS] mkdir found.
+[2026-11-17 04:24:49] [SUCCESS] date found.
+[2026-11-17 04:24:49] [SUCCESS] All required dependencies are available.
