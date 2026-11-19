@@ -483,5 +483,65 @@ trap 'error "User interruption using Ctrl+C."; exit 130' INT
 # ===============================
 # Main Program
 # ===============================
-init_directories 
-check_dependencies
+
+
+while true; do
+    echo "========================================"
+    echo "     Bash Data Processing Toolkit"
+    echo "========================================"
+    echo "1. Count Lines"
+    echo "2. Extract CSV Columns"
+    echo "3. Filter Data"
+    echo "4. Calculate Statistics"
+    echo "5. Merge Files"
+    echo "6. Remove Duplicates"
+    echo "7. Check Dependencies"
+    echo "8. Initialize Directories"
+    echo "9. Exit"
+    echo "========================================"
+
+    read -rp "Choose an option: " choice
+
+    if [[ ! "$choice" =~ ^[0-9]+$ ]]; then
+        error "Invalid option. Please enter a number between 1 and 9."
+
+    elif (( choice < 1 || choice > 9 )); then
+        error "Invalid choice."
+
+    else
+        case "$choice" in
+            1)
+                count_lines "data/data.txt" || true
+                ;;
+            2)
+                extract_columns "data/data.csv" 1,2 || true
+                ;;
+            3)
+                filter_data "data/data.txt" "Linux" || true
+                ;;
+            4)
+                calculate_stats "data/data.csv" || true
+                ;;
+            5)
+                merge_files "data/data.txt" "data/sample.txt" || true
+                ;;
+            6)
+                deduplicate "data/data.txt" || true
+                ;;
+            7)
+                check_dependencies || true
+                ;;
+            8)
+                init_directories || true
+                ;;
+            9)
+                success "Exiting Bash Data Processing Toolkit."
+                break
+                ;;
+        esac
+    fi
+
+    echo
+    read -rp "Press Enter to continue..."
+    clear
+done

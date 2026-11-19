@@ -145,3 +145,53 @@
 [2026-11-17 04:24:49] [SUCCESS] mkdir found.
 [2026-11-17 04:24:49] [SUCCESS] date found.
 [2026-11-17 04:24:49] [SUCCESS] All required dependencies are available.
+[2026-11-19 01:38:26] [SUCCESS] Exiting Bash Data Processing Toolkit.
+[2026-11-19 01:38:39] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-19 01:38:39] [ERROR] File does not exist: data/sample.txt
+[2026-11-19 01:38:39] [ERROR] Merge operation cancelled.
+[2026-11-19 01:39:32] [SUCCESS] Exiting Bash Data Processing Toolkit.
+[2026-11-19 01:44:35] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-19 01:44:35] [SUCCESS] File passed all validation checks: data/sample.txt
+[2026-11-19 01:44:35] [INFO] Merging input files...
+[2026-11-19 01:44:35] [SUCCESS] Files merged successfully: output/merged.txt
+[2026-11-19 02:02:06] [SUCCESS] Exiting Bash Data Processing Toolkit.
+[2026-11-19 02:02:33] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-19 02:02:33] [INFO] counting lines in file: data/data.txt
+[2026-11-19 02:02:33] [SUCCESS] Line count for file 'data/data.txt': 5
+[2026-11-19 02:03:07] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-19 02:03:07] [INFO] Extracting columns 1,2 from data/data.csv
+[2026-11-19 02:03:07] [SUCCESS] Columns extracted successfully.
+[2026-11-19 02:03:31] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-19 02:03:31] [INFO] Filtering data in data/data.txt using pattern: Linux
+[2026-11-19 02:03:31] [SUCCESS] Matching records found.
+[2026-11-19 02:03:51] [SUCCESS] File passed all validation checks: data/data.csv
+[2026-11-19 02:03:51] [INFO] Calculating statistics from data/data.csv
+[2026-11-19 02:03:51] [SUCCESS] Statistics calculated successfully.
+[2026-11-19 02:04:08] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-19 02:04:08] [SUCCESS] File passed all validation checks: data/sample.txt
+[2026-11-19 02:04:08] [INFO] Merging input files...
+[2026-11-19 02:04:08] [SUCCESS] Files merged successfully: output/merged.txt
+[2026-11-19 02:04:17] [SUCCESS] File passed all validation checks: data/data.txt
+[2026-11-19 02:04:17] [INFO] Removing duplicate lines from data/data.txt
+[2026-11-19 02:04:17] [SUCCESS] Original lines: 5
+[2026-11-19 02:04:17] [SUCCESS] Unique lines: 4
+[2026-11-19 02:04:17] [SUCCESS] Duplicates removed: 1
+[2026-11-19 02:04:35] [INFO] Checking dependencies...
+[2026-11-19 02:04:35] [SUCCESS] awk found.
+[2026-11-19 02:04:35] [SUCCESS] grep found.
+[2026-11-19 02:04:35] [SUCCESS] wc found.
+[2026-11-19 02:04:35] [SUCCESS] cat found.
+[2026-11-19 02:04:35] [SUCCESS] mkdir found.
+[2026-11-19 02:04:35] [SUCCESS] date found.
+[2026-11-19 02:04:35] [SUCCESS] All required dependencies are available.
+[2026-11-19 02:04:46] [INFO] Initializing directories...
+[2026-11-19 02:04:46] [SUCCESS] Required directories are ready.
+[2026-11-19 02:05:02] [SUCCESS] Exiting Bash Data Processing Toolkit.
+[2026-11-19 02:05:43] [ERROR] User interruption using Ctrl+C.
+[2026-11-19 02:10:00] [SUCCESS] Exiting Bash Data Processing Toolkit.
+[2026-11-19 02:13:06] [ERROR] Invalid option. Please enter a number between 1 and 9.
+[2026-11-19 02:13:09] [ERROR] Invalid option. Please enter a number between 1 and 9.
+[2026-11-19 02:13:14] [SUCCESS] Exiting Bash Data Processing Toolkit.
+[2026-11-19 02:13:32] [ERROR] Invalid option. Please enter a number between 1 and 9.
+[2026-11-19 02:13:53] [SUCCESS] Exiting Bash Data Processing Toolkit.
+[2026-11-19 02:15:10] [SUCCESS] Exiting Bash Data Processing Toolkit.
